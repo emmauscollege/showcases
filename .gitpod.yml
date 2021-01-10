@@ -1,3 +1,13 @@
+
+# The Docker image to run your workspace in. Defaults to gitpod/workspace-full
+image: <your-workspace-image>
+# Command to start on workspace startup (optional)
 tasks:
-  - init: 'echo "TODO: Replace with init/build command"'
-    command: 'echo "TODO: Replace with command to start project"'
+  - command: python3 -m http.server 8080
+    name: webserver
+  - command: >
+    name: terminal
+# Ports to expose on workspace startup (optional)
+ports:
+  - port: 3000
+    onOpen: notify
