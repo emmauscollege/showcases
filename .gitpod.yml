@@ -1,6 +1,6 @@
 
 # The Docker image to run your workspace in. Defaults to gitpod/workspace-full
-image: <your-workspace-image>
+# image: <your-workspace-image>
 # Command to start on workspace startup (optional)
 tasks:
   - command: python3 -m http.server 8080
