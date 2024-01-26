@@ -1,0 +1,12 @@
+states:
+"playing"
+"paused"
+"startScreen"
+"guide"
+"settings"
+"level-passed" //challenge only
+"gameOver" //challenge only
+
+modes:
+"creative"
+"challenge"
