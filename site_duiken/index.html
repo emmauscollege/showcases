@@ -1,39 +1,106 @@
 <!DOCTYPE html>
-<html> 
+<html id="hoofdpagina-achtergrond">
+  
   <head>
-      <link rel="stylesheet" href="style1.css">
-      <title>SCUBA Diving</title>
-
+    <link rel="stylesheet" href="style.css">
+    <title>Duiken</title>
   </head>
-<!--SITE-->
+  
   <body>
-    <main>
-      <header>
-        <h1 class=titel>HOME</h1>
-<!--NAVIGATIE MENU-->
-      <nav>
-        <ul class="navigatie">
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="algeme_informatie.html">Algemene informatie</a></li>
-          <li><a href="brevetten.html">Brevetten</a></li>
-          <li><a href="lessen.html">Lessen</a></li>
-          <li><a href="kosten.html">Kosten</a></li>
-          <li><a href="mijn_ervaring.html">Mijn ervaring</a></li>
-        </ul>
-      </nav>
-      <br>
-<!--TEKST-->
-      <article>
-        <img class="zweefLinks" src="GOPR0163.2.JPG" height="450" width="670"><h6 class=ondertitel>Dit is een foto van mij in TODI (een indoor duikaquarium in Belgie)</h6>
-        <p>Welkom op mijn website. Mijn naam is Wouter van der Werf, ik ben 15 jaar oud en mijn hobby en sport is duiken. Op deze site leg ik uit wat deze sport inhoud, wat ik er zelf mee doe en waarvoor ik het doe.</p>
-        <p>Onder het kopje algemene informatie leg ik de basis uit van het duiken en hoe de sport in elkaar zit, onder het kopje Brevetten lees je welke brevetten je kunt halen, onder het kopje lessen vind je hoe een duikles ongeveer in elkaar zit, onder het kopje kosten vind je hoe duur de sport is en onder mijn ervaring vind je de brevetten die ik heb gehaald en wat ik doe nu ik kan duiken.</p>
-      </article>
-      </header>
-      <footer>
-       <hr/>
-       <p class="smalltext">Copyright 2019</p>
-      </footer>
-    </main>
-  <script src="/showcases/idle-redirect.js"></script>
-</body>
+
+    <div class="nav" id="nav-home">
+      <ul>
+        <li id="nav-boven">
+          <h2 class="tekst-nav-boven">Website duiken</h2> 
+          <h4 class="tekst-nav-boven">van Antwan Bos</h4>
+        </li>
+        <li>
+          <br>
+          <a class="active pagina" href="index.html">Home</a>
+        </li>
+        <li>
+          <a class="pagina" href="geschiedenis.html">Geschiedenis</a>
+        </li>
+        <li>
+          <a class="pagina" href="duikuitrusting.html" id="duikuitrusting">Duikuitrusting</a>
+        </li>
+        <li>
+          <a class="pagina" href="nachtduiken.html" id="nachtduiken">Nachtduiken</a>
+        </li>
+        <li>
+          <a class="pagina" href="duiklocaties.html" id="duiklocaties">Duiklocaties</a>
+        </li>
+        <li>
+          <a class="pagina" href="mijn ervaring.html" id="mijn-ervaring">Mijn ervaring</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="page">
+  
+      <div class="header">
+        <h1>Home</h1>
+      </div>
+  
+
+  
+      <div class="main" id="tekst-hoofdpagina">
+  
+        <div>
+          <h2>wat is duiken?</h2>
+          <p>
+            Duiken is het langdurig verblijf onder water, meestal met hulpmiddelen zoals een ademluchtfles.
+            Tot halverwege de twintigste eeuw werd voornamelijk beroepsmatig gedoken, maar het is tegenwoordig ook een groeiend tijdverdrijf.
+            Duiken zonder ademlucht noemen we het vrijduiken. We spreken van technisch duiken als er geen mogelijkheid is om direct naar het oppervlak te stijgen zoals bij een decompressieverplichting
+            (het verplicht uitvoeren van decompressiestops tijdens het opstijgen om decompressieziekte te voorkomen) en het duiken in grotten of wrakken.
+            Tijdens het duiken ademt de duiker ademlucht uit een cilinder (samengeperste lucht).
+            Tijdens de duik ademt de duiker lucht bij een druk die gelijk is aan de waterdruk van de diepte waarop hij zich bevindt.
+            Hoe dieper hij gaat, hoe hoger de druk waarbij hij ademt. Lucht bestaat grotendeels uit zuurstof en stikstof.
+            In de longen lossen de gassen in de ademlucht gedeeltelijk op in het bloed. Dit gaat in een evenwichtsreactie, waarbij naarmate de druk hoger is, er meer van de gassen oplost. 
+            Het lichaam verbruikt de zuurstof voor verbranding, maar laat de stikstof ongemoeid: die blijft opgelost in het lichaamsvocht.
+            Na verloop van tijd zal de stikstofconcentratie in het lichaamsvocht zo hoog worden, dat de oplossing verzadigd raakt.
+            Als de duiker op die diepte blijft zal hij netto geen stikstof meer opnemen in zijn lichaamsvocht.
+            Het verband tussen oplosbaarheid van gassen en de druk wordt beschreven door de Wet van Henry.
+          </p>
+          <img class="item-plaatje" id="plaatje-hoofdpagina" src="afbeeldingen/plaatje-hoofdpagina.jpeg" alt="duikplaatje">
+          <img class="item-plaatje" id="plaatje-hoofdpagina2" src="afbeeldingen/plaatje-hoofdpagina2.webp" alt="duikplaatje2">      
+        </div>
+        <div>
+          <h2>duikgrens</h2>
+          <img class="item-plaatje" id="schildpad-hoofdpagina" src="afbeeldingen/schildpad-hoofdpagina.jpg" alt="schildpad"> 
+          <p id="tekst-duikgrens">
+            Er is geen effectieve dieptegrens voor recreatief duiken.
+            Duikorganisaties zoals PADI en CMAS hanteren getrapte grenzen.
+            In duikclubs wereldwijd wordt typisch 18 tot 20 meter voor beginnende duikers aangehouden (CMAS 1*, PADI OWD), en 30 meter voor ervaren duikers (CMAS 2*, PADI AOW).
+            Mits de nodige opleidingen en voorzorgmaatregelen kan met perslucht tot 40 meter (CMAS 3*, PADI met Deep Dive training).
+            Tot deze dieptes kan veilig met ademlucht (binnen de duiksport spreekt men meestal nog van perslucht) en nitrox gedoken worden, met gebruik van recreatieve duikapparatuur.
+          </p>
+        </div>
+        <div>
+          <h2>veiligheid</h2>
+          <p>
+            Duiken is een activiteit die niet ongevaarlijk is.
+            Het water is immers geen natuurlijke leefomgeving voor de mens.
+            Drukverschillen tussen de omgevingsdruk en de druk in luchthoudende (lichaams)holten kunnen een barotrauma veroorzaken.
+            Andere gevaren zijn verdrinking, decompressieziekte, stikstofnarcose en zuurstofvergiftiging, naast de scherpe uiteinden van rotsen e.d.
+            en diverse gevaarlijke zeedieren en planten die voor problemen kunnen zorgen (tot en met de dood).
+          </p>
+        </div>
+  
+      </div>
+  
+      <div class="footer">
+        <hr>
+        <p class="smalltext" >--Emmauscollege----2025--<br> 
+          <a href="https://nl.wikipedia.org/wiki/Duiksport" class="link" target="_blank"> <!--target="_blank" zorgt ervoor dat de link op een nieuwe pagina opent.-->
+            wikipedia duiksport
+          </a>
+        </p>
+      </div>
+
+ 
+  
+    </div>
+  <script src="/showcases/idle-redirect.js"></script>  
+  </body>
 </html>

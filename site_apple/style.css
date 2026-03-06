@@ -1,0 +1,242 @@
+/* Instellingen om fouten te helpen vinden,
+   uncomment om aan te zetten */
+
+/* zorg dat elke box een gestippelde rand krijgt, 
+   zodat je de afmeting goed kunt zien, 
+   let op 1: dit kan de layout soms kan wijzigen 
+   let op 2: laat 1 sterretje voor { staan als je commentaar weghaalt */
+/*  * {border: 1px dotted black;}   */
+  
+/* zorg dat elke box een doorzichtige donkere achtergrond krijgt, 
+   hoe meer boxen in elkaar hoe donkerder de achtergrondkleur 
+   letop: laat 1 sterretje voor { staan als je commentaar weghaalt */
+/*  * {background-color: rgba(0,0,0,5%);}  */
+
+
+/************************* BASISINSTELLINGEN *************************/
+
+/* Basisinstellingen voor alle pagina's, alleen aanpassen als je pro wilt worden */
+
+* {                               /* geldt voor alles */
+  box-sizing: border-box;         /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;                    /* standaard marge 0 pixels */
+}
+
+html, body {                      /* geldt voor html en body */
+  background-color: #FFFFFF;    /* achtergrondkleur lichtgrijs */
+  color: #303030;    
+  text-align: center;
+  margin: 0px;                    /* zorgt voor geen witte streep boven of onder */
+}  
+
+div {                             /* geldt voor div */
+  overflow: hidden;               /* zorgt dat een <div> de hoogte krijgt van wat erin zit
+                                     (anders tellen de floats erin niet mee voor de hoogte
+                                     en wordt dus wel eens hoogte 0) */
+}
+
+
+/************************* ALLE WEBPAGINA'S *************************/
+
+/* Indeling en opmaak voor alle pagina's */
+
+.page {
+  width: 1050px;                   /* vaste breedte van 700 pixels */
+  margin: 0px auto;               /*links en rechts marge gelijk verdeeld (gecentreerd) */
+}
+
+h1,h2,p {                           /* geldt voor h1 en h2 en p */
+  margin: 10px;                     /* afstand tussen andere contents */
+  text-align: center;               /* tekst centreren */
+  color: black;
+}
+
+h1,h2,p,td{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;   /* officiele font van apple */
+}
+
+.box {                              /* zet het tekst in een doos */
+  border-color:black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;              /* maakt de hoeken afgerond */
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: blue;                    /* kleur van a hyper reference */
+  text-decoration: none;
+}
+
+a:hover {                         
+  text-decoration: underline;       /* onderstreep als muis erboven */
+}
+
+
+/************************* NAVIGATIEBALK *************************/
+
+/* navigatiebalk voor alle pagina's */
+
+
+ul.galerij {                        
+  display: flex;                    /* afbeeldingen naast elkaar zetten */
+  justify-content: center;          /* afbeeldingen centreren */
+  gap: 40px;                        /* afstand tussen afbeeldingen */
+  list-style: none;                 /* zorgt voor geen punten */
+}
+
+ul.galerij li {
+  text-align: center;               /* tekst centreren */
+}
+
+ul li p {                           
+    margin-top: 8px;                /* afstand tussen tekst en de afbeelding boven */
+    font-size: 0.95rem;             /* tekst grootte */
+    color: black;                 /* tekst kleur */
+    list-style: none;               /* zorgt voor geen punten */
+  }
+
+.galerij li img:hover{
+    background-color: #D7D7D7;    /* achtergrond kleur veranderen als muis erboven */
+  }
+
+.galerij img{
+  width: 200px;
+  height: 200px;
+}
+
+/************************* HOOFDPAGINA *************************/
+
+.hoofdimg img{
+  width: 500px;
+  height: 400px;
+}
+
+.hoofdimg{
+text-align: centre;                 /* afbeelding centreren */
+}
+
+/************************* SUBPAGINA *************************/
+
+.titelg3 {
+  background-color:#0095B6 ;      /* achtergrond kleur */
+  padding: 30px;                    /* afstand tussen tekst en border */
+  width: 100%;                      /* hele bladzijde breed */
+  margin: 0px;                      /* geen witte streep boven content */
+}
+
+.titel {
+  background-color:#A8AAB6 ;      /* achtergrond kleur */
+  padding: 30px;                    /* afstand tussen tekst en border */
+  width: 100%;                      /* hele bladzijde breed */
+  margin: 0px;                      /* geen witte streep boven en onder content */
+}
+
+.titelg4 {
+  background-color: #F0F0F0 ;      /* achtergrond kleur */
+  padding: 30px;                    /* afstand tussen tekst en border */
+  width: 100%;                      /* hele bladzijde breed */
+  margin: 0px;                      /* geen witte streep boven en onder content */
+}
+
+.titelpro {
+  background-color:  black ;      /* achtergrond kleur */
+  color: white;
+  padding: 30px;                    /* afstand tussen tekst en border */
+  width: 100%;                      /* hele bladzijde breed */
+  margin: 0px;                      /* geen witte streep boven content */
+}
+
+.titelm1 {
+  background-color: #F7A8B8 ;     /* achtergrond kleur */
+  padding: 30px;                    /* afstand tussen tekst en border */
+  width: 100%;                      /* hele bladzijde breed */
+  margin: 0px;                      /* geen witte streep boven content */
+}
+
+.specs img{
+width: 40px;
+height: 40px;
+vertical-align: middle;             /* zorgt dat de plaatje met de tekst alignt */
+}      
+
+.specs{
+display: inline-block;             /* content inline maken */
+text-align: left;                  /* tekst in het links zetten */
+list-style: none;                  /* zorgt voor geen punten */
+}      
+
+.prijs {
+background-color: deepskyblue;   /* achtergrond kleur van de prijs */
+color: white;                    /* tekst kleur */
+padding: 5px;                     
+margin-top: 100px;
+}
+
+.subimg img{
+  width: 550px;
+  height: 500px;
+}
+
+.subimg {
+  text-align: center;               /* afbeelding centreren */
+  margin-top: 10px;
+}
+
+.subimg2 img{
+  width: 390px;
+  height: 300px;
+  float: left
+}
+
+.subimg2 {
+float: left                      
+}
+
+.subimg3 img{
+  width: 390px;
+  height: 300px;
+  float: left
+}
+
+.subimg3 {
+float: right                      
+}
+
+#grijs {
+  color:  #717378
+}
+
+#blauw {
+  color:  #6EB1E3
+}
+
+#groen {
+  color:  #8DC63F
+}
+
+#geel {
+  color:  #FEDD61
+}
+
+#roze {
+  color:  #F7A8B8
+}
+
+#oranje {
+  color:  #FF8C42
+}
+
+#paars {
+  color:  #B18CD9
+}
+
+#zilver {
+  color:  #C0C0C0
+}
+
+#bondie-blue {
+  color:  #0095B6 
+}

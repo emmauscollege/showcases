@@ -1,0 +1,488 @@
+
+/************************* BASISINSTELLINGEN *************************/
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+
+html, body{
+  color: #303030;
+}  
+
+
+div {
+  overflow: hidden;
+}
+
+
+.witte-tekst{
+  color: white;
+} 
+
+/************************* ALLE WEBPAGINA'S *************************/
+
+/* Indeling en opmaak voor alle pagina's */
+
+.link{
+  color:#0C7987;
+  text-decoration: underline;
+}
+
+.page {
+  width: 700px;
+  margin: 10px auto;
+}
+
+.header, .footer {
+  margin: 10px 0px;
+}
+
+.main {                       
+  text-align: justify;
+}
+
+h1, h2, h3 {
+  margin: 10px 0px;
+  text-align: center;
+  color: #081118;
+} 
+
+p {
+  margin: 10px 0px;
+  text-align: justify;
+}
+
+img {
+  margin: 10px 0px;
+}
+
+.smalltext {
+  text-align: center;
+  font-size: 0.7em;
+}
+
+  .tekst-geschiedenis-en-nachtduiken-align{
+text-align: center;
+}
+
+/************************* NAVIGATIEBALK *************************/
+
+.nav ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;        /*zet de padding van basisinstellingen op 0*/
+  width: 130px;
+  position: fixed;   /*zorgt ervoor dat de navigatiebalk links komt te staan*/
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.tekst-nav-boven{
+  color: white;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', sans-serif;
+}
+
+.pagina {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 60px 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+#nav-boven{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.tekst-geschiedenis-en-nachtduiken{
+  text-align: center;
+}
+
+
+/************************* HOOFDPAGINA *************************/
+
+#hoofdpagina-achtergrond {
+  background-image: url("afbeeldingen/achtergrond hoofdpagina.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.item-plaatje {
+  width: 250px;
+  padding-right: 15px;
+}
+
+
+.kopje-duikgrens {
+ padding-right: 220px;
+}
+
+.kopje-veiligheid {
+ padding-right: 25px;
+}
+
+#plaatje-hoofdpagina2 {
+  float: left;
+  width: 285px;
+  margin-left: 40px;
+}
+
+#schildpad-hoofdpagina{
+  float: right;
+  width: 30%;
+  margin-top: 30px;
+}
+
+#plaatje-hoofdpagina{
+ width: 295px;
+ float: right;
+ margin-right: 25px;
+}
+
+#tekst-hoofdpagina{
+  background-color: rgba(15, 121, 135, 0.5);
+  padding: 15px;
+}
+
+
+#tekst-duikgrens{
+  float: left;
+  width: 68%;
+}
+
+#nav-home li a:hover {
+  background-color: rgba(58, 140, 154, 0.7);
+}
+
+#nav-home li a.active {
+  background-color: rgba(12, 121, 135, 0.7);
+}
+#nav-home ul{
+  background-color: rgba(78, 156, 172, 0.7);
+}
+
+
+/************************* SUBPAGINA *************************/
+
+/*Geschiedenis*/
+
+#geschiedenis-achtergrond {
+  background-image: url("afbeeldingen/achtergrond geschiedenis.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#tekst-geschiedenis{
+  background-color: rgba(153, 153, 153, 0.7);
+  padding: 15px;
+}
+
+
+#plaatje-geschiedenis-rechts{
+  width: 150px;
+  float: right;
+  margin-right: 20px;
+}
+
+#plaatje-geschiedenis-links{
+  width: 150px;
+  float: left;
+  margin-left: 33px;
+}
+
+#plaatje-geschiedenis-midden{
+  width: 370px;
+  width: 250px;
+  margin-left: 33px;
+}
+
+#Jacques-plaatje{
+  float: right;
+  width: 150px;
+  margin-top: 19px;
+}
+
+#Jacques-tekst{
+  float: left;
+  width: 75%;
+}
+
+#nav-geschiedenis ul{
+  background-color: rgba(192, 192, 192, 0.7);
+}
+
+#nav-geschiedenis li a:hover {
+  background-color: rgba(153, 153, 153, 0.7);
+}
+
+#nav-geschiedenis li a.active {
+  background-color: rgba(102, 102, 102, 0.7);
+}
+
+/*Duikuitrusting*/
+
+#duikuitrusting-achtergrond {
+  background-image: url("afbeeldingen/achtergrond duikuitrusting.webp");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+table{
+  background-color: rgba(155, 208, 223, 0.8);
+  float: left;
+  width: 65%;
+}
+
+#plaatje-duikuitrusting{
+  float: right;
+  width: 33%;
+  padding-top: 45px;
+}
+
+th{
+  background-color: #3C9FB9;
+}
+
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
+#tekst-duikuitrusting{
+  background-color: rgba(155, 208, 223, 0.75);
+  padding: 15px;
+  border: 3px solid #dddddd;
+}
+
+#plaatje-duikmasker{
+  width: 145px;
+  float: left;
+}
+
+#plaatje-ademautomaten{
+  width: 150px;
+  float: right;
+  margin-top: 28px;
+}
+
+#plaatje-duikcomputer{
+  width: 85px;
+  float: right;
+  margin-left: 22px;
+}
+
+#tekst-benodigdheden{
+  width: 75%;
+}
+
+
+#nav-duikuitrusting ul{
+  background-color: rgba(155, 208, 223, 0.5);
+}
+
+#nav-duikuitrusting li a:hover {
+  background-color: rgba(58, 140, 154, 0.25);
+}
+
+#nav-duikuitrusting li a.active {
+  background-color: rgba(12, 121, 135, 0.3);
+}
+
+
+
+/*Nachtduiken*/
+
+#nachtduiken-achtergrond {
+  background-image: url("afbeeldingen/achtergrond nachtduiken.webp");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#handsignaal{
+  width: 290px;
+}
+
+#nachtduiken-plaatje-midden{
+  width: 185px;
+  margin-bottom: 33px;
+}
+
+#nachtduiken-plaatje-rechts{
+  width: 185px;
+  float: right;
+  margin-top: 20px;
+}
+
+#tekst-nachtduiken{
+  background-color: rgba(68, 68, 68, 0.7);
+  padding: 15px;
+}
+
+#nav-nachtduiken ul{
+  background-color: rgba(81, 81, 81, 0.5);
+}
+
+#nav-nachtduiken li a:hover {
+  background-color: rgba(68, 68, 68, 0.5);
+}
+
+#nav-nachtduiken li a.active {
+  background-color: rgba(20, 20, 20, 0.5);
+}
+
+#plaatje-murene{
+  float: right;
+  text-align: center;
+  color: white;
+}
+
+#waarom-nachtduiken-tekst{
+  float: left;
+  width: 60%;
+}
+
+.gele-tekst{
+  color: #E2E800;
+}
+
+/*Duiklocaties*/
+
+#duiklocaties-achtergrond {
+  background-image: url("afbeeldingen/achtergrond duiklocaties.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#nav-duiklocaties ul{
+  background-color: rgba(120, 200, 160, 0.8);
+}
+
+#nav-duiklocaties li a:hover {
+  background-color: rgba(63, 163, 122, 0.8);
+}
+
+#nav-duiklocaties li a.active {
+  background-color: rgba(31, 107, 78, 0.8);
+}
+
+#tekst-duiklocaties{
+  background-color: rgba(120, 200, 160, 0.7);
+  padding: 15px;
+  border: 3px solid black;
+}
+
+.tekst-locaties1tm5 {
+  padding: 10px;
+}
+
+#locatie1 {
+  float: left;
+  width: 35%;
+  border: 3px solid black;
+  background-color: rgba(120, 200, 160, 0.8);
+  padding-bottom: 16.5px;
+}
+
+#plaatje-locatie1 {
+  width: 230px;
+  margin-left: 6px;
+}
+
+#locatie2 {
+  float: right;
+  width: 63%;
+  border: 3px solid black;
+  background-color: rgba(12, 121, 135, 0.75);
+}
+
+#plaatje-locatie2 {
+  width: 200px;
+  margin-left: 106px;
+}
+
+#locatie3 {
+  margin-top: 15px;
+  float: right;
+  width: 63%;
+  border: 3px solid black;
+  background-color: rgba(63, 163, 122, 0.8);
+}
+
+
+#plaatje-locatie3 {
+  width: 190px;
+  margin-left: 118px;
+}
+
+#locatie4 {
+  float: right;
+  width: 63%;
+  border: 3px solid black;
+  background-color: rgba(12, 121, 135, 0.3);
+  margin-top: 15px;
+}
+
+#locatie5 {
+  float: left;
+  width: 35%;
+  border: 3px solid black;
+  background-color: rgba(31, 107, 78, 0.6);
+  margin-top: 15px;
+}
+
+/*mijn ervaring*/
+
+#nav-mijnervaring ul{
+  background-color: rgba(255, 140, 0, 0.5);
+}
+
+#nav-mijnervaring li a:hover {
+  background-color: rgba(230, 115, 0, 0.5);
+}
+
+#nav-mijnervaring li a.active {
+  background-color: rgba(204, 85, 0, 0.8);
+}
+
+#mijnervaring-achtergrond {
+  background-image: url("afbeeldingen/achtergrond mijn ervaring.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+#tekst-mijnervaring {
+   background-color: rgba(255, 140, 0, 0.7);
+   padding: 15px;
+   border: black 3px solid;
+}
+
+#toelichting-plaatjes-mijnervaring {
+  float: left;
+}
+
+#mijnduiken {
+  margin-bottom: 15px;
+}
+
+#plaatje-duikbrevetten {
+  float: right;
+  width: 32%;
+  margin-top: 30px;
+}
+
+#tekst-brevetten {
+  float: left;
+  width: 63%;
+}
